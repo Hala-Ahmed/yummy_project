@@ -1,0 +1,53 @@
+body {
+    background-color: #0d0d0d;
+    color: #f9f6f6;
+    /* overflow: hidden; */
+}
+
+.loading-screen{
+z-index:999;
+ display: flex ;
+}
+.nav-tab{
+    background-color: #0d0d0d;
+
+}
+.logo{
+    width: 50px;
+}
+i{
+    cursor: pointer;
+
+}
+.meai-layer{
+    width: 100%;
+    height: 100%;
+    background: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+
+
+.meal:hover .meai-layer{
+
+top: 0;
+
+}
+.sibe-nav-menu{
+    z-index: 99;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.alert{
+    width: fit-content;
+}
+
+
+    .inner-loading-screen{
+        position: absolute ;
+        z-index: 9;
+        background-color: #0d0d0d;
+        display: flex;
+    }
